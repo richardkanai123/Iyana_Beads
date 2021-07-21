@@ -1,0 +1,30 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+section{
+    padding: 0;
+    min-height: 90vh;
+    scrollbar-width:unset;
+    /* width: 100vw; */
+    max-height: fit-content;
+}
+
+.Home img{
+    width: 10rem;
+}
+   
+
+#iyana{
+    background:turquoise;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    .Home img{
+        align-self: center;
+        min-width: 70vw;
+        margin: 0.5rem;
+    }
+}
